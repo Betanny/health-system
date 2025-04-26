@@ -1,40 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Health Information System
+
+A comprehensive health information system built with Next.js that allows healthcare providers to manage clients and health programs efficiently.
+
+## Features
+
+- **Program Management**: Create and manage health programs (TB, Malaria, HIV, etc.)
+- **Client Registration**: Register new clients with personal and contact information
+- **Program Enrollment**: Enroll clients in one or more health programs
+- **Client Search**: Search for clients by name, email, or contact number
+- **Client Profiles**: View detailed client information and program enrollments
+- **API Access**: Access client data via RESTful API endpoints
+
+## Tech Stack
+
+- **Framework**: Next.js 15 with App Router
+- **UI Components**: radix/ui
+- **Styling**: Tailwind CSS
+- **State Management**: React Hooks
+- **Data Handling**: Server Actions
+
+
+## Security Considerations
+
+- Data validation on both client and server sides
+- Type safety with TypeScript
+- Proper error handling and user feedback
+- API endpoints with appropriate status codes and error messages
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Run the development server: `npm run dev`
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-
-
-git config user.name "Betanny Wairimu"
-git config user.email "beisymish@gmail.com"
