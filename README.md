@@ -19,6 +19,16 @@ A comprehensive health information system built with Next.js that allows healthc
 - **State Management**: React Hooks
 - **Data Handling**: Server Actions
 
+## Environment Variables
+
+Create a `env.local` with the following contents:
+
+```bash
+NEON_DATABASE_URL=""
+ENCRYPTION_KEY=""
+JWT_ACCESS_TOKEN_EXPIRES_IN=2h
+JWT_SECRET=""
+```
 
 ## Security Considerations
 
